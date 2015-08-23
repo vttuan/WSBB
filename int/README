@@ -1,0 +1,36 @@
++===================================================================+
+| Big Integer Library                                               |
+| A C++ library that does arithmetic on integers of unlimited size. |
+| Version 2006.05.01                                                |
++-------------------------------------------------------------------+
+| By Matt McCutchen                                                 |
+| E-mail: hashproduct@gmail.com                                     |
+| My Web site gateway: http://mysite.verizon.net/hashproduct/       |
+| Project Web site: http://www.kepreon.com/~matt/bigint/            |
++===================================================================+
+
+What the Big Integer Library provides
+=====================================
+This library contains two classes, BigUnsigned and BigInteger, that represent nonnegative integers and integers, respectively, of size limited only by your computer's memory.  Their capabilities include these operators:
+        Math:   +  -  *  /  %  &  |  ^  unary-
+  Assignment: = += -= *= /= %= &= |= ^= ++ --
+  Comparison:   == != <  <= >  >=
+In the works are the << and >> operators, integer algorithms like `gcd', and possibly a working implementation of RSA using the library.
+
+Using the features of the library
+=================================
+The file `sample.cc' explains and demonstrates the most important features of the library.  I recommend that you read `sample.cc' and then run the sample program it contains.  If you want to do something not shown in `sample.cc' or want more detail, read the actual header and source files, which are extensively commented.
+
+Compiling programs with the library
+===================================
+The library consists of a folder full of header files (`.hh') and source files (`.cc').  `#include' header files and compile with source files as necessary for your own programs.  For those who use `make', a `Makefile' is included that compiles the source code to object files (`.o') and compiles the sample program.
+
+Bugs
+====
+The library has been tested by myself and others but is by no means bug-free.  The programs you write using the library will be the best test of its correctness.  I urge you to report any problems that you find, whether they come in the form of compiling trouble, mathematically inaccurate results, or runtime memory-management bloopers (which, since I use Java, are altogether too common in my C++).
+
+Keep in touch
+=============
+Feel free to e-mail me at `hashproduct@gmail.com' to report bugs or request features.  When I fix the bug or add the feature, you will generally be credited by name in the source code and/or the Change Log unless you request otherwise.  I am also curious as to what uses you find for the library.  New versions of the library will be available at the project Web site.
+
+=====================================================================
