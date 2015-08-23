@@ -9,7 +9,7 @@ http://mistic.heig-vd.ch/taillard/problemes.dir/ordonnancement.dir/flowshop.dir/
 
 =========================== 
 
-Protocol Deployment: there are two steps:
+Protocol Deployment - there are two steps:
 
 i) Manager: (./src/work_stealing/manager.cpp) ebstablish a termination detection tree
 for work stealing.
