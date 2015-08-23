@@ -109,7 +109,7 @@ peer_t * peers_data[max_peers]; // Array of pointers for peers data
 peer_t *last_peer = NULL;
 peer_t *first_peer = NULL;
 
-int duration = 5; //default running time for the manager
+int duration = 600; //default running time for the manager
 
 address_t *my_address = (address_t*) malloc(sizeof(address_t));
 ;
